@@ -1,0 +1,32 @@
+@author= zeref.weismann
+
+TUTORIAL INSTALASI WEBGIS
+1. Import database ke mysql
+2.  Kemudian buat view v_galery dengan scrip di bawah ini
+===========================================================================================================================
+CREATE VIEW `v_galery`  AS  select `tbl_galerry`.`id` AS `id`,`tbl_galerry`.`id_lokasi` AS `id_lokasi`,`tbl_lokasi`.`nama_lokasi` AS `nama_lokasi`,`tbl_galerry`.`caption` AS `caption`,`tbl_galerry`.`galery` AS `galery` from (`tbl_lokasi` join `tbl_galerry`) where (`tbl_galerry`.`id_lokasi` = `tbl_lokasi`.`id`) ;
+=================================================================================================================================
+
+3.  Kemudian buat view v_lokasi dengan scrip di bawah ini
+================================================================================================================================
+CREATE VIEW `v_lokasi`  AS  select `tbl_lokasi`.`id` AS `id`,`tbl_lokasi`.`id_desa` AS `id_desa`,`tbl_lokasi`.`nama_lokasi` AS `nama_lokasi`,`tbl_marker`.`nama` AS `legenda`,`tbl_lokasi`.`lat` AS `lat`,`tbl_lokasi`.`lng` AS `lng`,`tbl_lokasi`.`alamat` AS `alamat`,`tbl_lokasi`.`no_hp` AS `no_hp`,`tbl_lokasi`.`foto` AS `foto`,`tbl_lokasi`.`deskripsi` AS `deskripsi`,`tbl_lokasi`.`url` AS `url`,`tbl_marker`.`gbr` AS `gbr` from (`tbl_lokasi` join `tbl_marker`) where (`tbl_marker`.`id` = `tbl_lokasi`.`id_marker`) ;
+==============================================================================================================================
+
+4. selesai
+
+Note:
+Nama gambar jangan menggunkan koma
+
+
+
+
+Kontrubusi Aplikasi
+1. Map Drawer
+   -> Rasyid Salman
+   -> Tama imuts
+2. Programmer
+   -> Ammar Annajih Pasifiky (backend and frontend)
+   -> A. Hafidhz Gunawan (layouting and responsive)
+3. Android Dev
+   -> Juon Junior
+   -> Liza RIfan

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>desa beku</name>
+    <Style id="poly-EDA29B-1-54-nodesc-normal">
+      <LineStyle>
+        <color>ff9ba2ed</color>
+        <width>0.001</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>369ba2ed</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-EDA29B-1-54-nodesc-highlight">
+      <LineStyle>
+        <color>ff9ba2ed</color>
+        <width>0.0015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>369ba2ed</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-EDA29B-1-54-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-EDA29B-1-54-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-EDA29B-1-54-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>desa beku
+</name>
+      <styleUrl>#poly-EDA29B-1-54-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              110.6316597,-7.6538597,0
+              110.6370885,-7.6553696,0
+              110.6385905,-7.6559864,0
+              110.6415946,-7.6563691,0
+              110.6423886,-7.6566669,0
+              110.6463046,-7.6584692,0
+              110.6463609,-7.6583469,0
+              110.6454731,-7.6579429,0
+              110.6453819,-7.6577302,0
+              110.6447382,-7.6573687,0
+              110.6447274,-7.6567838,0
+              110.6437189,-7.6560182,0
+              110.6446201,-7.6538172,0
+              110.6458754,-7.6543169,0
+              110.647002,-7.6527219,0
+              110.6461866,-7.6520733,0
+              110.6454677,-7.6515417,0
+              110.6446094,-7.6515523,0
+              110.6439335,-7.6511695,0
+              110.6426782,-7.6508292,0
+              110.6415088,-7.6503614,0
+              110.6408865,-7.6497978,0
+              110.640393,-7.6493512,0
+              110.6401033,-7.6486494,0
+              110.6394596,-7.6485005,0
+              110.6390841,-7.6482878,0
+              110.6381936,-7.6480858,0
+              110.6379039,-7.64782,0
+              110.6375284,-7.6479263,0
+              110.6368525,-7.6497765,0
+              110.6365735,-7.6496489,0
+              110.6363053,-7.6507335,0
+              110.6330115,-7.6496277,0
+              110.6319387,-7.6513184,0
+              110.6326039,-7.6515417,0
+              110.6324,-7.6523391,0
+              110.6316597,-7.6538597,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
